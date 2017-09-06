@@ -1,0 +1,21 @@
+{
+    "historys":
+    [
+        {
+            "_id": "59b008d62600ec2e3a3f3c74",
+            "titulo": "Os três reis",
+            "tipo": "história própria",
+            "categoria": "fantasia",
+            "tags": "fantasia, mitologia, deuses, literatura fantástica",
+            "texto": "Este é um conto sobre os três reis do Império Ômega, em Etherion."
+        },
+        {
+            "_id": "59b026d62600ec2e3a3f3c75",
+            "titulo": "O Diário de Annabeth Chase",
+            "tipo": "fanfic",
+            "categoria": "fantasia",
+            "tags": "fantasia, mitologia, deuses, literatura fantástica, percy jackson, annabeth",
+            "texto": "Dia a dia de um semideus"
+        }
+    ]
+}
