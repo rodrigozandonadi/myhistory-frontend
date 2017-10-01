@@ -1,0 +1,29 @@
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+}
+
+h1, h2, h3, h4, h5, h6, p, span, input {
+    color: #ffffff;
+}
+
+a {
+    color: #009688;
+    font-weight: bold;
+}
+
+.facebook.btn {
+    background-color: #3b5997;
+}
+
+.googleplus.btn {
+    background-color: #df4a36;
+}
+
+.instagram.btn {
+    background-color: #c1327f;
+}

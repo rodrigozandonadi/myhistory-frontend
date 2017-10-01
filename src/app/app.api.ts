@@ -1,1 +1,1 @@
-export const URL_API = 'localhost:3000/historys';
+export const URL_API = 'http://localhost:3000/postagens';

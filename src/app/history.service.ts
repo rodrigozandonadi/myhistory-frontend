@@ -18,4 +18,17 @@ export class HistoryService {
         .then((resposta: any) => resposta.json());
     }
 
+    public getHistoryPorCategoria(categoria: string): Promise<History[]> {
+        return this.http.get(`${URL_API}/?categoria=${categoria}`)
+        .toPromise()
+        .then((resposta: any) => resposta.json());
+    }
+
+    public postNewHistory(): Promise<History[]> {
+        return this.http.get(`${URL_API}`)
+        .toPromise()
+        .then((resposta: any) => resposta.json());
+    }
+    
+
 }

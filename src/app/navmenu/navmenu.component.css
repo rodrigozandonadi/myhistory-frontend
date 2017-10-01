@@ -1,0 +1,23 @@
+ul a {
+    color: #b0bec5;
+}
+
+ul a:hover, div {
+    color: #009688;
+    font-weight: bold;
+}
+
+.user {
+    height: 30px;
+    margin-left:25px;
+}
+.user img {
+    max-height: 100%;
+    margin-top: 18px;
+    float: left;
+}
+
+.user span {
+    float: left;
+    margin-left:10px;
+}

@@ -1,0 +1,28 @@
+.chamada {    
+    padding-left: 10px;
+    margin-bottom: 20px;
+}
+.chamada h3 {
+    font-size: 1.8rem;
+    color: #009688;
+}
+.destaque {
+    position: relative;
+}
+
+.destaque div {
+    width: 100%;
+    position: absolute;
+    bottom: 5px;
+    background: rgba(27, 20, 20, 0.70);
+    color: #ffffff;
+}
+
+.destaque .titulo {
+    font-size: 1.6rem;    
+    padding-left: 10px;
+}
+
+.destaque img {
+    max-width: 100%;
+}

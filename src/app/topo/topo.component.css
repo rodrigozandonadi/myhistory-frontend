@@ -1,0 +1,19 @@
+.all {
+    background-image: url('../../assets/background.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+}
+
+nav, .nav-wrapper {
+    padding-left: 20px;
+    padding-right: 20px;
+    /* background: none !important; */
+}
+nav a {
+    color: #009688;
+}
+
+.form-login {
+    background: rgba(27, 20, 20, 0.70);
+}

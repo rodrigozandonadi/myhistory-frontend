@@ -1,0 +1,68 @@
+<div class="container">    
+<div class="row">
+    <h1><a href="http://localhost/myhistory/">Cadastro de histórias</a></h1>
+    <form name="cadastro_historia" method="post" action="#" onsubmit="validaHistoria(this)">
+        <div class="input-field col s12 l6">
+            <p>Título:</p> 
+            <input id="titulo_historia" class="form-control" type="text" name="titulo_historia" required/>
+            <div id="titulo_warning" class="msg_warning"></div>
+        </div>
+        <div class="input-field col s12 l6">
+            <p>Escolha uma imagem que represente sua história</p>
+            <button type="button" id="img_historia" data-loading-text="Loading..." class="btn btn-primary" autocomplete="off">
+            Selecionar Imagem
+            </button>
+            <div id="img_warning" class="msg_warning"></div>
+        </div>
+        <div style="clear:both"></div>
+        <div class="row">
+            <div class="input-field col l4">
+                <p>Classificação:</p> 
+                <p>Você escreverá uma História sua ou uma Fanfiction?</p>
+                <p>
+                    <input name="group1" type="radio" name="classificacao_historia" id="classificacao_historia1" value="História Própria" />
+                    <label for="historia_propria">História Própria</label>
+                </p>
+                <p>
+                    <input name="group1" type="radio" name="classificacao_historia" id="classificacao_historia1" value="Fanfiction"/>
+                    <label for="fanfiction">Fanfiction</label>
+                </p>
+                <div id="classificacao_warning" class="msg_warning"></div>
+            </div>
+            <div class="input-field col l4">
+                <p>Categoria:</p> 
+                <p>Em que categoria sua História se encaixa?</p>
+                <div class="input-field col s12">
+                    <select id="categoria_historia" name="categoria_historia" required>
+                        <option></option>
+                        <option>Ficção Científica</option>
+                        <option>Terror</option>
+                        <option>Suspense</option>
+                        <option>Romance</option>
+                        <option>Poesia</option>
+                        <option>Literatura Fantástica</option>
+                    </select>
+                </div>
+                <div id="categoria_warning" class="msg_warning"></div>
+            </div>
+            <div class="input-field col l4">
+                <p>Tags:</p> 
+                <p>Ajude as pessoas a acharem sua história!</p>
+                <input id="tags_historia" class="form-control" type="text" name="tags_historia" required/>
+                <div id="tags_warning" class="msg_warning"></div>
+            </div>
+        </div> 
+        <div class="row">
+        <form class="col s12">
+            <div class="row">
+            <div class="input-field col s12">        
+                <p for="sinopse_historia">Sinopse</p>            
+                <textarea id="sinopse_historia" class="materialize-textarea" placeholder="Escreva a sinopse da sua história"></textarea>                
+            </div>
+            </div>
+        </form>
+        </div>                                    
+        <button class="btn btn-primary" id="enviar_historia" type="submit" onclick="return validaHistoria()">Enviar</button>
+    </form>
+</div>
+</div><!-- /.container -->

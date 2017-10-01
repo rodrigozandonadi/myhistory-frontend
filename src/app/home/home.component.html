@@ -1,0 +1,20 @@
+<div class="container">
+  <div class="row historys">
+    <div class="chamada">
+      <h3>Continue lendo</h3>
+      <div class="divider"></div>
+    </div>
+    <div *ngFor="let history of historys">
+      <div class="col s12 m4">
+        <div class="destaque">
+          <img src="../../assets/posts/img01.jpg" />
+          <div>
+            <h4 class="titulo">{{history.titulo}}</h4>        
+          </div>
+        </div>
+        <p class="texto" [innerHTML]="history.texto"></p>
+      </div>
+    </div>
+  </div>
+</div>
+
